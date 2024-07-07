@@ -1,6 +1,8 @@
+import path from "node:path"
+
 import * as vite from "vite"
 import { describe, test, expect } from "vitest"
-import path from "node:path"
+
 import { envOnlyMacros } from "../../src"
 
 describe("macros", () => {
